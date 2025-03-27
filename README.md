@@ -55,7 +55,7 @@ Coloque as imagens de entrada nas pastas `pooping` e `not_pooping`, com o format
 No terminal, execute o comando abaixo na raiz do seu projeto, onde o script **Nextflow** está localizado:
 
 ```bash
-nextflow run seu_script.nf
+nextflow run main.nf
 ```
 
 ### Evitar Reprocessamento de Imagens Já Aumentadas
@@ -64,7 +64,7 @@ Se você já executou o fluxo de trabalho anteriormente e deseja evitar o reproc
 Para usar a opção `-resume`, execute o comando:
 
 ```bash
-nextflow run seu_script.nf -resume
+nextflow run main.nf -resume
 ```
 
 ### Saídas
